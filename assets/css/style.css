@@ -1,0 +1,275 @@
+/* text styles */
+
+body {
+    background-color: #fefefe;
+    margin: 0px;
+}
+
+h1 { 
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #151515;
+}
+
+h2 { 
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0em;
+    text-align: left;    
+    color: #151515;
+}
+
+
+p { 
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #151515;
+}
+
+.primary-button {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fefefe;
+    background-color: #9EBE84;
+    border-radius: 50px;
+    border: none;
+    padding: 8px 48px;
+}
+
+.primary-button:hover { 
+    background-color: #667d54;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.secondary-button { 
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #9EBE84;
+    text-decoration: none;
+
+}
+
+.primary-button-about:hover, .profile-pic:hover, .navbar-item-about:hover {
+    opacity: .7;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.secondary-button:hover, .navbar-item:hover {
+    color: #667d54;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.footer-text { 
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    color: #fefefe;
+}
+
+/* nav bar */
+
+.navbar {
+    position: relative;
+
+}
+
+.profile-pic {
+    width: 82px;
+    height: 82px;
+    margin: 16px 32px 16px 96px;
+
+}
+
+.navbar-items { 
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-item {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    color: #151515;
+    margin: 16px 32px 16px 32px;
+    text-decoration: none;
+}
+
+
+/* hero section */
+
+.hero-section {
+    margin-top: 64px;
+    margin-bottom: 64px;
+    margin-left: 96px;
+}
+
+.hero-section-copy {
+}
+
+.typewriter {
+    color: #9EBE84;
+
+}
+
+.hero-h1 { 
+    margin-bottom: 0px;
+}
+/* case studies */
+
+/* .case-study-section {
+    margin-left: 32px;
+} */
+
+.case-study { 
+    display: flex; 
+    flex-direction: row;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    margin-left: 96px;
+    margin-right: 96px; 
+}
+
+.case-study-title {
+    margin-left: 96px;
+
+}
+
+.case-study-copy { 
+    display: flex; 
+    flex-direction: column;
+    margin-left: 32px;
+}
+
+.case-study-heading {
+    margin-bottom: 4px;
+}
+
+.case-study-category {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 9px;
+    color: #9EBE84;
+    text-transform: uppercase;
+}
+/* footer */
+
+.footer {
+    background-color: #9EBE84;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.footer-links { 
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.footer-text {
+    text-align: center;
+    color: #fefefe;
+}
+
+/* about.html */
+.green-background { 
+    background-color: #9EBE84;
+}
+
+.navbar-item-about {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    color: #fefefe;
+    margin: 16px 32px 16px 32px;
+    text-decoration: none;
+}
+
+
+.primary-button-about {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #9EBE84;
+    background-color: #fefefe;
+    border-radius: 50px;
+    border: none;
+    padding: 8px 48px;
+    margin-top: 32px;
+    margin-bottom: 64px;
+}
+
+/* about hero */ 
+.about-section  { 
+    margin-top: 64px;
+    margin-bottom: 64px;
+    margin-left: 96px;
+    margin-right: 96px;
+    color: #fefefe;
+}
+
+.about-h1, .about-p {
+    color: #fefefe;
+    margin-right: 16px;
+}
+
+/* gallery */
+
+.photo-rows { 
+    margin-bottom: 32px;
+}
+.photo-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+.photo {
+    margin: 24px;
+}
